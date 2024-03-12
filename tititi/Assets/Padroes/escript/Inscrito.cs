@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AudioManager : MonoBehaviour
+public class Inscrito : MonoBehaviour
 {
     public TMP_Text Coinstext;
     private void OnEnable()
