@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 //Manda o conteudo
-public class PlayerController : MonoBehaviour
+public class PlayerBarControle : MonoBehaviour
 {
     /*public int coin;
     
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         }
         
         Debug.Log(coin);
-    }*/
+    }
 
     
     //COMMADER
@@ -203,5 +203,5 @@ public class Movement : Command
     public override void Undo()
     {
         playerController.SetMove(moveDirection * -1);
-    }
+    }*/
 }
